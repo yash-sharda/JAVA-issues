@@ -12,3 +12,7 @@ This repository is used for internship training on:
 - Raise a proper Pull Request
 
 Happy Coding 🚀
+
+
+
+only for pull request.
