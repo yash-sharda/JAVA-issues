@@ -6,8 +6,8 @@ public class Calculator {
         return a + b;
     }
 
-    // ISSUE: Implement subtract method
+    // ISSUE FIXED: Implement subtract method
     public int subtract(int a, int b) {
-        return 0;
+        return a - b;
     }
 }
