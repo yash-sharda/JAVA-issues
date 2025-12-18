@@ -4,6 +4,16 @@ public class ArrayUtils {
 
     // ISSUE: Return maximum element from array
     public static int findMax(int[] arr) {
-        return -1;
+        if (arr == null || arr.length == 0) {
+            throw new IllegalArgumentException("Array must not be null or empty");
+        }
+
+        int max = arr[0];
+        for (int i = 1; i < arr.length; i++) {
+            if (arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        return max;
     }
 }

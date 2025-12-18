@@ -8,6 +8,8 @@ public class Calculator {
 
     // ISSUE: Implement subtract method
     public int subtract(int a, int b) {
-        return 0;
+        int sub=a-b;
+
+        return sub;
     }
 }
