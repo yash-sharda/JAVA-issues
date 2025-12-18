@@ -4,6 +4,13 @@ public class StringUtils {
 
     // ISSUE: Method should reverse the string
     public static String reverse(String input) {
-        return input;
+         if (input == null) {
+            return null;
+        }
+
+        StringBuilder sb = new StringBuilder(input);
+        return sb.reverse().toString();
     }
 }
+    
+
