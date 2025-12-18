@@ -2,12 +2,9 @@ package com.internship;
 
 public class StringUtils {
 
-    // ISSUE: Method should reverse the string
+    // Fix: Method reverses the string
     public static String reverse(String input) {
-        if (input == null) {
-            return null;
-        }
-
+        if (input == null) return null; // handle null input
         return new StringBuilder(input).reverse().toString();
     }
 }
